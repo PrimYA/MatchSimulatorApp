@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Proj-DIO/SantanderMobile/matches-simulator-novo-main/NewSimulator/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Proj-DIO/SantanderMobile/matches-simulator-novo-main/NewSimulator/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Proj-DIO/SantanderMobile/matches-simulator-novo-main/NewSimulator/app/src/main/res/layout/match_item.xml" value="0.5" />
       </map>
     </option>
   </component>
