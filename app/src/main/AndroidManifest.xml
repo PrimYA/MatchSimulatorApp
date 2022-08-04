@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="me.dio.simulator">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -27,6 +27,7 @@
         <activity
             android:name=".ui.DetailActivity"
             android:exported="true"
+            android:parentActivityName=".ui.MainActivity"
             android:theme="@style/Theme.Simulator.NoActionBar" />
 
     </application>
