@@ -22,6 +22,18 @@
             tools:srcCompat="@tools:sample/avatars" />
 
         <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvHomeTeamName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            tools:text="Home Team"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/ivHomeTeam"
+            app:layout_constraintStart_toStartOf="@+id/ivHomeTeam"
+            app:layout_constraintTop_toBottomOf="@+id/ivHomeTeam" />
+
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tvHomeTeamScore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -58,10 +70,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_default"
-            tools:text="Away Team"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/ivAwayTeam"
             app:layout_constraintStart_toStartOf="@+id/ivAwayTeam"
-            app:layout_constraintTop_toBottomOf="@+id/ivAwayTeam" />
+            app:layout_constraintTop_toBottomOf="@+id/ivAwayTeam"
+            tools:text="Away Team" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tvAwayTeamScore"
@@ -73,5 +87,7 @@
             app:layout_constraintEnd_toStartOf="@+id/ivAwayTeam"
             app:layout_constraintStart_toEndOf="@+id/tvVersus"
             app:layout_constraintTop_toTopOf="@+id/ivAwayTeam" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
